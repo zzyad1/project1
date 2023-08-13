@@ -1,0 +1,37 @@
+body {
+    background:url(SL.123119.26540.04.jpg);
+    background-size: cover;
+}
+.z{
+   display: flex;
+   justify-content: baseline;
+   align-items: center;
+}
+
+.logo {
+   color: rgb(146 227 254);
+   font-size: 45px;
+   font-family: Arial;
+
+}
+ul {
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   margin: auto;
+}
+ul li {
+   list-style: none;
+   margin-left: 25px;
+   font-size: 20px;
+}
+ul li a {
+   text-decoration: none;
+   color: #fff;
+   font-family: Arial;
+   font-weight: bold;
+   transition: 0.4s ease-in-out;
+}
+ul li a:hover{
+   color: rgb(146 227 254);
+}
